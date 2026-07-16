@@ -1,0 +1,9 @@
+{
+  "name": "fixture-node-project",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node --check src/index.ts",
+    "test": "node --test test/example.test.ts",
+    "dev": "node src/index.ts"
+  }
+}

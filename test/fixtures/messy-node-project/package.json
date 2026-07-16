@@ -1,0 +1,6 @@
+{
+  "name": "fixture-messy-node-project",
+  "scripts": {
+    "test": "node --test test/example.test.js"
+  }
+}

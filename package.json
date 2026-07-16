@@ -1,0 +1,21 @@
+{
+  "name": "agent-primer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate concise AGENTS.md guidance by inspecting a repository.",
+  "type": "module",
+  "bin": {
+    "agent-primer": "./bin/agent-primer.js"
+  },
+  "scripts": {
+    "scan": "node --experimental-strip-types src/cli.ts scan",
+    "test": "node --experimental-strip-types --test test/inspect.test.ts",
+    "check": "node --experimental-strip-types --check src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "devDependencies": {
+    "@openai/codex": "^0.144.5"
+  }
+}
